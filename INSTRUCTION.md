@@ -19,7 +19,7 @@ kubectl apply -f namespace.yml
 Apply the Deployment, Services, Pods, and Horizontal Pod Autoscaler manifests to the cluster:
 ```bash
 kubectl apply -f deployment.yml
-kubectl apply -f service.yml
+kubectl apply -f clusterIp.yml
 kubectl apply -f hpa.yml
 ```
 
